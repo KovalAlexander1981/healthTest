@@ -21,7 +21,6 @@ public class ContactFullUserInfoPage extends BasePage {
     @FindBy(id = "com.jayway.contacts:id/phonenumber")
     private WebElement phoneNumberText;
 
-
     public ContactFullUserInfoPage() {
         checkIsOpened();
     }
