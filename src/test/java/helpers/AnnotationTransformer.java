@@ -1,4 +1,4 @@
-package Helpers;
+package helpers;
 
 import org.testng.IAnnotationTransformer;
 import org.testng.annotations.ITestAnnotation;

@@ -1,7 +1,5 @@
-package Drivers;
+package drivers;
 
-import io.appium.java_client.AppiumDriver;
-import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
@@ -9,12 +7,13 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.util.ResourceBundle;
 
 public  class DriverFactory {
     protected static AndroidDriver<AndroidElement> driver;
     protected static WebDriverWait wait;
-    public static String userName = "alexsandrkoval1";
-    public static String accessKey = "G7coH4FUzyB4wWT65qXn";
+    public static String userName = String.valueOf(ResourceBundle.getBundle("user.name"));
+    public static String accessKey = String.valueOf(ResourceBundle.getBundle("access.key"));
 
        static {
            /* DesiredCapabilities caps = new DesiredCapabilities();

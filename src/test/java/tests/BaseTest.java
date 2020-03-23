@@ -1,9 +1,9 @@
-package Tests;
+package tests;
 
-import Pages.Pages;
+import pages.Pages;
 import org.testng.annotations.AfterSuite;
 
-import static Helpers.Utils.stopApp;
+import static helpers.Utils.stopApp;
 
 public class BaseTest {
     public ThreadLocal<Pages> pages = ThreadLocal.withInitial(() -> new Pages());

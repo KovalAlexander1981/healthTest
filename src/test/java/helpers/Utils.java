@@ -1,6 +1,6 @@
-package Helpers;
+package helpers;
 
-import Drivers.DriverFactory;
+import drivers.DriverFactory;
 import io.appium.java_client.TouchAction;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidKeyCode;
